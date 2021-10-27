@@ -1,0 +1,116 @@
+:root {
+  --border-radius: 5px;
+  --border-width: 5px;
+  --color-primary: #ec4326;
+  --color-secondary: #f2a220;
+  --color-accent: #007b7d;
+  --color-bg-primary: #fffaf0;
+  --color-text-primary: #412f20;
+  --color-text-secondary: #412f20bb;
+  --color-text-contrast: #ffffff;
+  --hover-brightness: 1.2;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --line-height-dense: 1.2;
+  --line-height: 1.5;
+  --line-height-loose: 1.7;
+  --font-normal: 400;
+  --font-semibold: 700;
+  --font-bold: 900;
+}
+
+html {
+  font-size: calc(100% + 0.25vw);
+  box-sizing: border-box;
+}
+
+body {
+  border-top: var(--border-width) solid var(--color-primary);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  font-weight: var(--font-normal);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  margin: 0;
+  padding: 2em 1em;
+}
+
+#___gatsby {
+  max-width: 50ch;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--color-accent);
+  filter: brightness(0.8);
+}
+
+a:hover {
+  color: var(--color-accent);
+  filter: brightness(var(--hover-brightness));
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  margin-top: 3em;
+  line-height: var(--line-height-dense);
+  font-weight: var(--font-bold);
+}
+
+h3 {
+  font-weight: var(--font-semibold);
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0;
+}
+
+ul li + li {
+  margin-top: 0.3em;
+}
+
+ul li::before {
+  content: "➽";
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: var(--color-secondary);
+}
+
+small {
+  font-size: small;
+}
+
+strong {
+  font-weight: 900;
+}
+
+input {
+  font-size: inherit;
+  padding: 0.4rem;
+}
+
+button {
+  border: 2px solid var(--color-primary);
+  border-radius: var(--border-radius);
+  background-color: var(--color-primary);
+  padding: 0.4rem 1rem;
+  color: var(--color-text-contrast);
+  font-weight: var(--font-semibold);
+  line-height: var(--line-height-dense);
+  font-family: var(--font-family);
+  margin: 0.75em 0;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(var(--hover-brightness));
+}
