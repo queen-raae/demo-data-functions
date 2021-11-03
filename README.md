@@ -5,7 +5,7 @@ Gatsby Function.
 
 ## Enjoy this demo?
 
-Sign up for Gatsby emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions)!
+Sign up for emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions) to get the most out of Gatsby!
 
 <cite>— Queen Raae 👑</cite>
 

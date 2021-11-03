@@ -13,6 +13,9 @@ module.exports = {
     },
     {
       resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-prismjs`],
+      },
     },
     "gatsby-plugin-gatsby-cloud",
   ],

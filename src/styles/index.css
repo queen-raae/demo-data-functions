@@ -17,6 +17,7 @@
   --font-normal: 400;
   --font-semibold: 700;
   --font-bold: 900;
+  --font-size-small: 0.7em;
 }
 
 html {
@@ -38,6 +39,10 @@ body {
 #___gatsby {
   max-width: 50ch;
   margin: 0 auto;
+}
+
+.gatsby-highlight {
+  font-size: var(--font-size-small);
 }
 
 a {
