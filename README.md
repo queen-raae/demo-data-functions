@@ -8,7 +8,7 @@ or take it for a spin using [CodeSandbox](https://codesandbox.io/s/demo-data-fun
 
 ## Enjoy this demo?
 
-Sign up for emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions) to get the most out of Gatsby!
+Learn how develop and deploy your first serverless functions pushing/pulling data to a third party service in my [upcoming bootcamp](https://queen.raae.codes/gatsby-bootcamps/first-function/?utm_source=demo&utm_campaign=demo-data-functions), or sign up for emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions) to get the most out of Gatsby!
 
 <cite>— Queen Raae 👑</cite>
 

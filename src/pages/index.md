@@ -93,6 +93,6 @@ export default function handler(req, res) {
 
 ## Enjoy this demo?
 
-Sign up for Gatsby emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions)!
+Learn how develop and deploy your first serverless functions pushing/pulling data to a third party service in my [upcoming bootcamp](https://queen.raae.codes/gatsby-bootcamps/first-function/?utm_source=demo&utm_campaign=demo-data-functions), or sign up for emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions) to get the most out of Gatsby!
 
 <cite>— Queen Raae 👑</cite>
