@@ -17,3 +17,6 @@ yarn.lock
 # Gatsby cache and public
 .cache
 public/
+
+# Codesandbox
+.codesandbox/
