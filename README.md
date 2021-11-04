@@ -3,6 +3,9 @@
 A tiny demo of the three common ways to get dynamic data into your
 Gatsby Function.
 
+Check out the [deployed demo](https://demodatafunctions.gatsbyjs.io/),
+or take it for a spin using [CodeSandbox](https://codesandbox.io/s/demo-data-functions-e9gtq).
+
 ## Enjoy this demo?
 
 Sign up for emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions) to get the most out of Gatsby!

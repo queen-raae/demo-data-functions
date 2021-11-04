@@ -3,7 +3,8 @@
 A tiny demo of the three common ways to get dynamic data into your
 Gatsby Function.
 
-Check out the code on [GitHub](https://github.com/queen-raae/demo-data-functions).
+Check out the code on [GitHub](https://github.com/queen-raae/demo-data-functions),
+or take it for a spin using [CodeSandbox](https://codesandbox.io/s/demo-data-functions-e9gtq).
 
 ## Using URL Queries
 
