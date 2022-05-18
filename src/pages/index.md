@@ -21,6 +21,7 @@ or take it for a spin using [CodeSandbox](https://codesandbox.io/s/demo-data-fun
 
 ```js
 // File: /api/time-travel-query
+// Usage: /api/time-travel-query?city=oslo&year=1624
 export default function handler(req, res) {
   const { city, year } = req.query;
   res.send(`You time-travelled to ${city}, in year ${year}`);
@@ -41,6 +42,7 @@ export default function handler(req, res) {
 
 ```js
 // File: /api/time-travel-params/[city]/[year].js
+// Usage: /api/time-travel-params/oslo/1624
 export default function handler(req, res) {
   const { city, year } = req.params;
   res.send(`You time-travelled to ${city}, in year ${year}`);
@@ -85,6 +87,7 @@ export default function handler(req, res) {
 
 ```js
 // File: /api/time-travel-body.js
+// Usage: {city: "Oslo", year: "2026"} added to request body
 export default function handler(req, res) {
   const { city, year } = req.body;
   res.send(`You time-travelled to ${city}, in year ${year}`);
