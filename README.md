@@ -6,11 +6,17 @@ Gatsby Function.
 Check out the [deployed demo](https://demodatafunctions.gatsbyjs.io/),
 or take it for a spin using [CodeSandbox](https://codesandbox.io/s/demo-data-functions-e9gtq).
 
-## Enjoy this demo?
+&nbsp;
 
-Learn how develop and deploy your first serverless functions pushing/pulling data to a third party service in my [upcoming bootcamp](https://queen.raae.codes/gatsby-bootcamps/first-function/?utm_source=demo&utm_campaign=demo-data-functions), or sign up for emails [from yours truly](https://queen.raae.codes/emails/?utm_source=demo&utm_campaign=demo-data-functions) to get the most out of Gatsby!
+## A message or two from Queen Raae 👑
 
-<cite>— Queen Raae 👑</cite>
+### 1-on-1 Emergency Gatsby Call
+
+Are you stuck on a reef in the sharky waters around the Gatsby islands? Check out [1-on-1 Emergency Gatsby Call](https://queen.raae.codes/gatsby-emergency/?utm_source=readme&utm_campaign=demo-data-functions) with Queen Raae to get friendly advice you can put into action immediately from a seasoned Gatsby developer.
+
+### Stay updated and get the most out of Gatsby
+
+Learn how to get the most out of Gatsby and **stay updated** on the plugin by [subscribing](https://queen.raae.codes/emails/?utm_source=readme&utm_campaign=demo-data-functions) to daily emails from Queen Raae and Cap'n Ola.
 
 &nbsp;
 
