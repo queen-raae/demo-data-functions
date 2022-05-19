@@ -53,7 +53,7 @@ export default function handler(req, res) {
 
 ### Demo
 
-<form action="/api/time-travel-body" method="post">
+<form action="/api/time-travel-body-raw" method="post">
   <p>
     <label htmlFor="year">Year: </label>
     <br/>
