@@ -8,14 +8,25 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const endpointSecret = process.env.STRIPE_ENDPOINT_SECRET;
 
 export default function handler(req, res) {
-  const sig = req.headers["stripe-signature"];
-
   try {
+    const sig = req.headers["stripe-signature"];
     const event = stripe.webhooks.constructEvent(req.body, sig, endpointSecret);
-    console.log(event.type);
-    res.status(200).send("Hello raw");
+
+    // Handle the event
+    switch (event.type) {
+      // Most common event to use for fulfillment
+      case "checkout.session.completed":
+        console.log("CheckoutSession completed, fulfill the order!");
+        break;
+      // ... handle other event types
+      default:
+        console.log(`Unhandled event type ${event.type}`);
+    }
+
+    res.status(200);
   } catch (err) {
-    res.status(400).send(`Webhook Error: ${err.message}`);
+    console.warn(err.message);
+    res.status(400);
   }
 }
 
