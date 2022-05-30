@@ -22,6 +22,7 @@
     "gatsby-transformer-remark": "5.14.0",
     "prismjs": "1.28.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "stripe": "9.1.0"
   }
 }
